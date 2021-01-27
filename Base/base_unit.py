@@ -6,15 +6,15 @@ from Common.function import config_url
 
 # 区分类和方法：首字母大小写
 class UnitBase(unittest.TestCase):
-    @classmethod
-    def setUpClass(cls):
+
+    def setup_method(cls, method):
         cls.driver = webdriver.Chrome()
         cls.driver.get(config_url())
         cls.driver.maximize_window()
         cls.driver.implicitly_wait(30)
 
-    @classmethod
-    def tearDownClass(cls):
+
+    def teardown_method(cls, method):
         cls.driver.quit()
 
 

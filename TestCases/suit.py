@@ -11,7 +11,7 @@ if __name__ == '__main__':
     # pytest.main()
 
     # 执行测试用例目录（TestCase）下test_1.py的文件,这个文件跟test_2在一层
-    pytest.main(['-vs','test_2.py'])
+    pytest.main(['-vs','test_3.py'])
 
     # 执行interface_testcase目录下面的test开头的用例
     # pytest.main(['-vs', 'D:\\se_frame\\interface_testcase'])
@@ -100,6 +100,10 @@ if __name__ == '__main__':
         product:产品模块
     """
     # 第二种报告：
+    # allure-pytest 待补充输出>>>1月27
+
+
+
 
 
 
