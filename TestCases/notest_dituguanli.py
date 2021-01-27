@@ -15,6 +15,6 @@ class Dituguanli(UnitBase,Base):
         print('跑通了')
 
 
-if __name__ == '__init__':
+if __name__ == '__main__':
     test = Dituguanli()
     test.test_dianjixinwen()
