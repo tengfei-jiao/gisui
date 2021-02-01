@@ -26,6 +26,6 @@ def read_excel(filename,index):
 
 if __name__ == "__main__":
     # 读取excel操作，并返回字典
-    date = read_excel(project_path()+"Data\\testdata.xls",0)
+    date = read_excel(project_path()+"TestDatas\\testdata.xls",0)
     print(date)
     print(date.get(1))

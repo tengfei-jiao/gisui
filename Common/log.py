@@ -3,6 +3,7 @@ import logging
 import time
 from Common.function import project_path
 
+# 【注意】后面调成日志的配置文件
 # 单词：formatter格式器、handler处理程序、FileHandler文件内容处理程序
 class FrameLog:
     """
