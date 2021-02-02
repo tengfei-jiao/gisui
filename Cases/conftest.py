@@ -1,13 +1,18 @@
 # coding=utf-8
 import pytest
+from selenium import webdriver
+
+# 日志以配好
 
 # test_3模块所有的用例都执行一次 >>> autouse=True
 @pytest.fixture(autouse=True)
-def fixture_all():
-    print('\n登录环境')
-    yield
-    print('\n退出环境')
-
+def project_session_start():
+    logger.info("==========进入 地图管理界面===========")
+    global driver
+    driver = webdriver.Chrome()
+    driver.maximize_window()
+    yield driver
+    logger.info("==========退出 地图管理界面===========")
 # # 部分用例的前后置
 # @pytest.fixture()
 # def eat():

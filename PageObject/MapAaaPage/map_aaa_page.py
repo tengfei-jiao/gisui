@@ -1,7 +1,6 @@
-import os
 import time
 from selenium.webdriver.common.by import By
-from Base.base import Base
+from Common.basepage import Base
 from Common.log import FrameLog
 
 # 这里对页面进行分析，提取出来要封装的函数

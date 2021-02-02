@@ -1,5 +1,4 @@
 # coding=utf-8
-import logging
 import time
 from Common.function import project_path
 

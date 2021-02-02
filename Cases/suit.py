@@ -11,10 +11,10 @@ if __name__ == '__main__':
     # pytest.main()
 
     # 执行测试用例目录（TestCase）下test_1.py的文件,这个文件跟test_2在一层
-    pytest.main(['-vs','test_3.py'])
+    pytest.main(['-vs','./MapAaaCases/test_1.py'])
 
     # 执行interface_testcase目录下面的test开头的用例
-    # pytest.main(['-vs', 'D:\\se_frame\\interface_testcase'])
+    # pytest.main(['-vs', 'D:\\se_frame\\其他'])
 
     # # 失败的用例再跑2次，运用插件：pytest_rerunfailures
     # pytest.main(['-vs', 'test_2.py', '--reruns=2'])

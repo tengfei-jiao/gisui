@@ -1,15 +1,8 @@
 # coding=utf-8
 import pytest
 import time
-from Base.base_unit import UnitBase
 
-class Testlogin(UnitBase):
-
-    def setUp(self):
-        print('\n进入管理界面')
-
-    def tearDown(self):
-        print('退出管理界面')
+class Testlogin():
 
     # 装饰器：标记用例执行的顺序，用的插件：pytest-ordering
     @pytest.mark.run(order=2)
@@ -35,5 +28,6 @@ class Testlogin(UnitBase):
         print('一只小花狗')
         assert 1==2
 
-
+if __name__ == "__main__":
+    pytest.main(['-vs','test_2.py'])
 

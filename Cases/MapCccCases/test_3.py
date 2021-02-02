@@ -1,7 +1,7 @@
 # coding=utf-8
 import pytest
 import time
-from Base.base_unit import UnitBase
+
 
 # 部分用例的前后置
 @pytest.fixture()

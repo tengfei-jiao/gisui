@@ -1,10 +1,8 @@
 # --*--coding=utf-8--*--
-from selenium import webdriver
-from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from Common.log import FrameLog
-from Common.function import config_url
+
 
 class Base:
     """这里封装了操作浏览器的基础操作"""

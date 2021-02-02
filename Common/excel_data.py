@@ -1,5 +1,4 @@
 # coding=utf-8
-import os
 import xlrd
 from Common.function import project_path
 
