@@ -1,0 +1,15 @@
+{
+  "total" : 12,
+  "items" : [ {
+    "uid" : "eb6b9f0b6f8021520653ec75c4f8a319",
+    "name" : "这里是1级特性",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

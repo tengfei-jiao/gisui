@@ -1,5 +1,7 @@
 # coding=utf-8
 import pytest
+import allure
+import os
 
 @pytest.fixture()
 def test_case_3():
@@ -31,15 +33,32 @@ def test_case_8():
 @pytest.mark.usefixtures('test_case_3')
 class Testlogin001:
 
+    @allure.feature('这里是1级特性')
+    @allure.story('这里是2级特性')
+    @allure.title('这里是用例标题1')
+    @allure.description('这里是用例描述1')
+    @allure.severity('blocker')
+    @allure.issue('添加缺陷对应链接：https://www.baidu.com/')
+    @allure.testcase('测试用例链接，比如：https://www.baidu.com/')
     # 被pytest.fixture()装饰的函数，函数名可以作为变量传递给测试用例，最终在执行测试用例之前执行这个装饰过的函数
     def test_case_1(self, test_case_8):
         print('---1号用例完成---')
+        with allure.step('测试步骤：'):
+            allure.attach('测试步骤1')
+            allure.attach('测试步骤2')
 
+
+    @allure.feature('这里是1级特性')
+    @allure.story('这里是2级特性')
+    @allure.title('这里是用例标题2')
+    @allure.description('这里是用例描述2')
+    @allure.severity('critical')
     # （2）这里按照调用了前面的函数test_case_6，局部的调用，执行优先级是最高的。
     @pytest.mark.usefixtures('test_case_7')
     @pytest.mark.usefixtures('test_case_6')
     def test_case_2(self):
         print('---2号用例完成---')
+        allure.attach('用例的一些test body信息')
 
     # 单参数单值
     @pytest.mark.parametrize('arg', [1])
@@ -58,10 +77,32 @@ class Testlogin001:
         print(f"原值：{test_input} 期望值{expected}")
         assert eval(test_input) == expected
 
+    @pytest.mark.xfail(condition=1<3, reason='该功能尚未完善,还在调测中')
+    def test_case_12(self):
+        print('---12号用例完成---')
+
+    @pytest.mark.skipif(reason='test_case_13用例还在调测中')
+    def test_case_13(self):
+        print('---13号用例完成---')
+
+
+@pytest.mark.skipif(1>3, reason='Testlogin2模块还在调测中')
+class Testlogin2:
+
+    def test_case_14(self):
+        print('---14号用例完成---')
+
 
 if __name__ == "__main__":
-    pytest.main(['-vs', 'test_1.py'])
 
+    # pytest.main(['test_1.py'])
+
+    # 生成测试报告---json格式
+    pytest.main(['--alluredir', 'D:/se_frame/Reports/allure_data', 'test_1.py'])
+    # allure转换成---html并打开测试报告
+    os.system('cd D:/se_frame/Reports/allure_data')
+    os.system('allure generate D:/se_frame/Reports/allure_data -o D:/se_frame/Reports/html --clean')
+    os.system('allure serve D:/se_frame/Reports/allure_data')
 
 
 

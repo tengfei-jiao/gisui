@@ -1,0 +1,251 @@
+{
+  "ae8cfeeabaeee8ee694af2c148846f70" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a9d3c4d1892f2f88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613900828564,
+        "stop" : 1613900828564,
+        "duration" : 0
+      }
+    } ]
+  },
+  "8e2ad4fb1281e9d6c7f46c3d536d3bdd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b048053dc3982353",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613900828468,
+        "stop" : 1613900828469,
+        "duration" : 1
+      }
+    } ]
+  },
+  "182296ac7969ce37160a961cd1abf8b8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ef4a5f55659dd33d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613900828494,
+        "stop" : 1613900828494,
+        "duration" : 0
+      }
+    } ]
+  },
+  "49d6a02eac2bec6c2d287cf90a32df30" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c57fc5000fd11ebd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613900828528,
+        "stop" : 1613900828528,
+        "duration" : 0
+      }
+    } ]
+  },
+  "dca4126574ba3fcc43382ca701814d96" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "70f9f896ee6d796e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613900828539,
+        "stop" : 1613900828539,
+        "duration" : 0
+      }
+    } ]
+  },
+  "7af525ca1ac13c99639e236f0da91d7f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f8bc6842f8ce472b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613900828506,
+        "stop" : 1613900828506,
+        "duration" : 0
+      }
+    } ]
+  },
+  "5845cf06abe378a86683f1f445fa67a6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "30e2167c67875e45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613900828483,
+        "stop" : 1613900828483,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e8f5f764cb18fb5296498084698021b3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "29b176fb80265a64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613900828432,
+        "stop" : 1613900828434,
+        "duration" : 2
+      }
+    } ]
+  },
+  "3c87973fe0df60f6c9ceaf865434afe1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a5d0afaa30cbdc19",
+      "status" : "passed",
+      "statusDetails" : "XPASS 该功能尚未完善,还在调测中",
+      "time" : {
+        "start" : 1613900828551,
+        "stop" : 1613900828551,
+        "duration" : 0
+      }
+    } ]
+  },
+  "be1ef567b3ba257c785e4533c7b44237" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a066bb1c47e2fc76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613900828376,
+        "stop" : 1613900828396,
+        "duration" : 20
+      }
+    } ]
+  },
+  "b2535d1a04d8b2aabe2c41bc4bb4bfce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "38df57f8b0931172",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: test_case_13用例还在调测中",
+      "time" : {
+        "start" : 1613900828559,
+        "stop" : 1613900828559,
+        "duration" : 0
+      }
+    } ]
+  },
+  "59837cba0b20bb05c0a219a55c316525" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "526447f05c876b7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613900828456,
+        "stop" : 1613900828456,
+        "duration" : 0
+      }
+    } ]
+  },
+  "771e48602c53dac694e6daad9730c857" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b173be7de1d8d8b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613900828516,
+        "stop" : 1613900828517,
+        "duration" : 1
+      }
+    } ]
+  }
+}

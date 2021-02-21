@@ -1,0 +1,175 @@
+{
+  "uid" : "a9d3c4d1892f2f88",
+  "name" : "test_case_14",
+  "fullName" : "Cases.MapAaaCases.test_1.Testlogin2#test_case_14",
+  "historyId" : "ae8cfeeabaeee8ee694af2c148846f70",
+  "time" : {
+    "start" : 1613900828564,
+    "stop" : 1613900828564,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_module",
+    "time" : {
+      "start" : 1613900828563,
+      "stop" : 1613900828564,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "project_session_start",
+    "time" : {
+      "start" : 1613900828563,
+      "stop" : 1613900828563,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "project_session_start::0",
+    "time" : {
+      "start" : 1613900828566,
+      "stop" : 1613900828566,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif(False, reason='Testlogin2模块还在调测中')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Cases.MapAaaCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_1"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testlogin2"
+  }, {
+    "name" : "host",
+    "value" : "zjm"
+  }, {
+    "name" : "thread",
+    "value" : "12276-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Cases.MapAaaCases.test_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9d67c9ab61879574",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613897922151,
+        "stop" : 1613897922151,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7a4fbb89abbf8a97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613897652357,
+        "stop" : 1613897652357,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "606ad316374cc48d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613897036827,
+        "stop" : 1613897036827,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b509c043a8f08b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613896766877,
+        "stop" : 1613896766877,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "77f4969f4ee4d883",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613894073680,
+        "stop" : 1613894073680,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c30256d04d62bf34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613893397687,
+        "stop" : 1613893397687,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "25dd92a866c29621",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613893096327,
+        "stop" : 1613893096328,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b3570210b2719897",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613892957075,
+        "stop" : 1613892957076,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "64f588b2693f9492",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613892787179,
+        "stop" : 1613892787179,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skipif(False, reason='Testlogin2模块还在调测中')" ]
+  },
+  "source" : "a9d3c4d1892f2f88.json",
+  "parameterValues" : [ ]
+}

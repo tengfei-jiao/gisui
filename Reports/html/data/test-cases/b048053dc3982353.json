@@ -1,0 +1,223 @@
+{
+  "uid" : "b048053dc3982353",
+  "name" : "test_case_10[abc]",
+  "fullName" : "Cases.MapAaaCases.test_1.Testlogin001#test_case_10",
+  "historyId" : "8e2ad4fb1281e9d6c7f46c3d536d3bdd",
+  "time" : {
+    "start" : 1613900828468,
+    "stop" : 1613900828469,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_module",
+    "time" : {
+      "start" : 1613900828467,
+      "stop" : 1613900828467,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "test_case_3",
+    "time" : {
+      "start" : 1613900828468,
+      "stop" : 1613900828468,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "test_case_5",
+    "time" : {
+      "start" : 1613900828468,
+      "stop" : 1613900828468,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "test_case_4",
+    "time" : {
+      "start" : 1613900828468,
+      "stop" : 1613900828468,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "project_session_start",
+    "time" : {
+      "start" : 1613900828467,
+      "stop" : 1613900828467,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "project_session_start::0",
+    "time" : {
+      "start" : 1613900828476,
+      "stop" : 1613900828476,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('test_case_3')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Cases.MapAaaCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_1"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testlogin001"
+  }, {
+    "name" : "host",
+    "value" : "zjm"
+  }, {
+    "name" : "thread",
+    "value" : "12276-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Cases.MapAaaCases.test_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg",
+    "value" : "'abc'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c9bbda5f67271bc6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613897921989,
+        "stop" : 1613897921989,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fe934cad601f20ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613897652232,
+        "stop" : 1613897652232,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b5d241509fa12834",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613897036688,
+        "stop" : 1613897036688,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6a791978c23dae1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613896766774,
+        "stop" : 1613896766774,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f12cafac5d982a66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613894073521,
+        "stop" : 1613894073521,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "63fa20f384ca61a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613893397525,
+        "stop" : 1613893397525,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4c331ac0bcb1ab6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613893096108,
+        "stop" : 1613893096108,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b6e6b51e7735365e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613892956820,
+        "stop" : 1613892956821,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c2ceb4d2f5b5466f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613892786915,
+        "stop" : 1613892786916,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('test_case_3')" ]
+  },
+  "source" : "b048053dc3982353.json",
+  "parameterValues" : [ "'abc'" ]
+}

@@ -1,0 +1,292 @@
+{
+  "uid" : "a066bb1c47e2fc76",
+  "name" : "这里是用例标题1",
+  "fullName" : "Cases.MapAaaCases.test_1.Testlogin001#test_case_1",
+  "historyId" : "be1ef567b3ba257c785e4533c7b44237",
+  "time" : {
+    "start" : 1613900828376,
+    "stop" : 1613900828396,
+    "duration" : 20
+  },
+  "description" : "这里是用例描述1",
+  "descriptionHtml" : "<p>这里是用例描述1</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_module",
+    "time" : {
+      "start" : 1613900828374,
+      "stop" : 1613900828374,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "test_case_8",
+    "time" : {
+      "start" : 1613900828375,
+      "stop" : 1613900828376,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "test_case_4",
+    "time" : {
+      "start" : 1613900828375,
+      "stop" : 1613900828375,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "project_session_start",
+    "time" : {
+      "start" : 1613900828374,
+      "stop" : 1613900828374,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "test_case_5",
+    "time" : {
+      "start" : 1613900828375,
+      "stop" : 1613900828375,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "test_case_3",
+    "time" : {
+      "start" : 1613900828375,
+      "stop" : 1613900828375,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "这里是用例描述1",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试步骤：",
+      "time" : {
+        "start" : 1613900828377,
+        "stop" : 1613900828396,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ba37152565c5b8e6",
+        "name" : "62c1d760-d3d3-4a4b-880b-cdf11817232f-attachment.attach",
+        "source" : "ba37152565c5b8e6.attach",
+        "type" : "text/plain",
+        "size" : 13
+      }, {
+        "uid" : "bf5add11ceca47d0",
+        "name" : "e8ce3509-69f0-4ced-9866-c5c8193dc4b5-attachment.attach",
+        "source" : "bf5add11ceca47d0.attach",
+        "type" : "text/plain",
+        "size" : 13
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "project_session_start::0",
+    "time" : {
+      "start" : 1613900828422,
+      "stop" : 1613900828422,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "这里是2级特性"
+  }, {
+    "name" : "feature",
+    "value" : "这里是1级特性"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('test_case_3')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Cases.MapAaaCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_1"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testlogin001"
+  }, {
+    "name" : "host",
+    "value" : "zjm"
+  }, {
+    "name" : "thread",
+    "value" : "12276-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Cases.MapAaaCases.test_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "测试用例链接，比如：https://www.baidu.com/",
+    "url" : "测试用例链接，比如：https://www.baidu.com/",
+    "type" : "test_case"
+  }, {
+    "name" : "添加缺陷对应链接：https://www.baidu.com/",
+    "url" : "添加缺陷对应链接：https://www.baidu.com/",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "3d866981543a1286",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613897921929,
+        "stop" : 1613897921930,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c651311a109ffeed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613897652131,
+        "stop" : 1613897652157,
+        "duration" : 26
+      }
+    }, {
+      "uid" : "9f79ed018343c9be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613897036589,
+        "stop" : 1613897036589,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "96307e1e0b00f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613896766633,
+        "stop" : 1613896766633,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b89bc75f9981afd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613894073413,
+        "stop" : 1613894073413,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "52e29ce8207b1bc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613893397458,
+        "stop" : 1613893397459,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "17d65e9f8c3dfa8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613893096060,
+        "stop" : 1613893096060,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f6886fd5dc33e437",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613892956715,
+        "stop" : 1613892956715,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2cdae6f673dd5635",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613892786818,
+        "stop" : 1613892786818,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('test_case_3')" ]
+  },
+  "source" : "a066bb1c47e2fc76.json",
+  "parameterValues" : [ ]
+}

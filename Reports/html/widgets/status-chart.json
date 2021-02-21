@@ -1,0 +1,131 @@
+[ {
+  "uid" : "b173be7de1d8d8b4",
+  "name" : "test_case_11[3+5-8]",
+  "time" : {
+    "start" : 1613900828516,
+    "stop" : 1613900828517,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30e2167c67875e45",
+  "name" : "test_case_10[1]",
+  "time" : {
+    "start" : 1613900828483,
+    "stop" : 1613900828483,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38df57f8b0931172",
+  "name" : "test_case_13",
+  "time" : {
+    "start" : 1613900828559,
+    "stop" : 1613900828559,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a066bb1c47e2fc76",
+  "name" : "这里是用例标题1",
+  "time" : {
+    "start" : 1613900828376,
+    "stop" : 1613900828396,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a9d3c4d1892f2f88",
+  "name" : "test_case_14",
+  "time" : {
+    "start" : 1613900828564,
+    "stop" : 1613900828564,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8bc6842f8ce472b",
+  "name" : "test_case_10[arg3]",
+  "time" : {
+    "start" : 1613900828506,
+    "stop" : 1613900828506,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b048053dc3982353",
+  "name" : "test_case_10[abc]",
+  "time" : {
+    "start" : 1613900828468,
+    "stop" : 1613900828469,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70f9f896ee6d796e",
+  "name" : "test_case_11[5*2-10]",
+  "time" : {
+    "start" : 1613900828539,
+    "stop" : 1613900828539,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "526447f05c876b7f",
+  "name" : "test_case_9[1]",
+  "time" : {
+    "start" : 1613900828456,
+    "stop" : 1613900828456,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c57fc5000fd11ebd",
+  "name" : "test_case_11[5-2-3]",
+  "time" : {
+    "start" : 1613900828528,
+    "stop" : 1613900828528,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29b176fb80265a64",
+  "name" : "这里是用例标题2",
+  "time" : {
+    "start" : 1613900828432,
+    "stop" : 1613900828434,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ef4a5f55659dd33d",
+  "name" : "test_case_10[arg2]",
+  "time" : {
+    "start" : 1613900828494,
+    "stop" : 1613900828494,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5d0afaa30cbdc19",
+  "name" : "test_case_12",
+  "time" : {
+    "start" : 1613900828551,
+    "stop" : 1613900828551,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

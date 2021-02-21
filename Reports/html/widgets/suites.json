@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "5871e9d5204d4d32d632cdc7bac84d3e",
+    "name" : "Cases.MapAaaCases",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 13
+    }
+  } ]
+}
