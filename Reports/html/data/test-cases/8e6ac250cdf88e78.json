@@ -1,0 +1,101 @@
+{
+  "uid" : "8e6ac250cdf88e78",
+  "name" : "test_case_14",
+  "fullName" : "Cases.MapAaaCases.test_1.Testlogin2#test_case_14",
+  "historyId" : "ae8cfeeabaeee8ee694af2c148846f70",
+  "time" : {
+    "start" : 1613897922151,
+    "stop" : 1613897922151,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "project_session_start",
+    "time" : {
+      "start" : 1613897922150,
+      "stop" : 1613897922150,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "start_module",
+    "time" : {
+      "start" : 1613897922150,
+      "stop" : 1613897922151,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "project_session_start::0",
+    "time" : {
+      "start" : 1613897922153,
+      "stop" : 1613897922153,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif(False, reason='Testlogin2模块还在调测中')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Cases.MapAaaCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_1"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testlogin2"
+  }, {
+    "name" : "host",
+    "value" : "zjm"
+  }, {
+    "name" : "thread",
+    "value" : "7512-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Cases.MapAaaCases.test_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skipif(False, reason='Testlogin2模块还在调测中')" ]
+  },
+  "source" : "8e6ac250cdf88e78.json",
+  "parameterValues" : [ ]
+}

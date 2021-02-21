@@ -1,5 +1,41 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'NoneType' object has no attribute 'get_screenshot_as_png'",
+      "children" : [ {
+        "name" : "test_case_14",
+        "uid" : "3847b9adc4b9d122",
+        "parentUid" : "68f9abdcbebd32efafccb975c0bf16e0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1613922884936,
+          "stop" : 1613922884936,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "68f9abdcbebd32efafccb975c0bf16e0"
+    }, {
+      "name" : "ZeroDivisionError: division by zero",
+      "children" : [ {
+        "name" : "这里是用例标题1",
+        "uid" : "3b76bbcfe9dc3b35",
+        "parentUid" : "23d45e2b95d72e21c04056363d6f717f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1613923530479,
+          "stop" : 1613923530479,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "23d45e2b95d72e21c04056363d6f717f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

@@ -1,0 +1,152 @@
+{
+  "uid" : "e5b4b29c07860a12",
+  "name" : "test_case_11[5-2-3]",
+  "fullName" : "Cases.MapAaaCases.test_1.Testlogin001#test_case_11",
+  "historyId" : "49d6a02eac2bec6c2d287cf90a32df30",
+  "time" : {
+    "start" : 1613893397618,
+    "stop" : 1613893397618,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_module",
+    "time" : {
+      "start" : 1613893397618,
+      "stop" : 1613893397618,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "project_session_start",
+    "time" : {
+      "start" : 1613893397618,
+      "stop" : 1613893397618,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "test_case_4",
+    "time" : {
+      "start" : 1613893397618,
+      "stop" : 1613893397618,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "test_case_3",
+    "time" : {
+      "start" : 1613893397618,
+      "stop" : 1613893397618,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "test_case_5",
+    "time" : {
+      "start" : 1613893397618,
+      "stop" : 1613893397618,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "project_session_start::0",
+    "time" : {
+      "start" : 1613893397618,
+      "stop" : 1613893397618,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('test_case_3')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Cases.MapAaaCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_1"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testlogin001"
+  }, {
+    "name" : "host",
+    "value" : "zjm"
+  }, {
+    "name" : "thread",
+    "value" : "6964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Cases.MapAaaCases.test_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "3"
+  }, {
+    "name" : "test_input",
+    "value" : "'5-2'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('test_case_3')" ]
+  },
+  "source" : "e5b4b29c07860a12.json",
+  "parameterValues" : [ "3", "'5-2'" ]
+}

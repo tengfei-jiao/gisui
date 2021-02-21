@@ -1,0 +1,106 @@
+{
+  "uid" : "957e02d2a5a45806",
+  "name" : "test_case_13",
+  "fullName" : "Cases.MapAaaCases.test_1.Testlogin001#test_case_13",
+  "historyId" : "b2535d1a04d8b2aabe2c41bc4bb4bfce",
+  "time" : {
+    "start" : 1613893096321,
+    "stop" : 1613893096321,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: test_case_13用例还在调测中",
+  "statusTrace" : "('D:\\\\se_frame\\\\Cases\\\\MapAaaCases\\\\test_1.py', 71, 'Skipped: test_case_13用例还在调测中')",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "project_session_start",
+    "time" : {
+      "start" : 1613893096327,
+      "stop" : 1613893096327,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "start_module",
+    "time" : {
+      "start" : 1613893096327,
+      "stop" : 1613893096327,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "project_session_start::0",
+    "time" : {
+      "start" : 1613893096329,
+      "stop" : 1613893096329,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif(reason='test_case_13用例还在调测中')"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('test_case_3')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Cases.MapAaaCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_1"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testlogin001"
+  }, {
+    "name" : "host",
+    "value" : "zjm"
+  }, {
+    "name" : "thread",
+    "value" : "7088-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Cases.MapAaaCases.test_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skipif(reason='test_case_13用例还在调测中')", "@pytest.mark.usefixtures('test_case_3')" ]
+  },
+  "source" : "957e02d2a5a45806.json",
+  "parameterValues" : [ ]
+}

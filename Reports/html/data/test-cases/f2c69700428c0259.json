@@ -1,0 +1,223 @@
+{
+  "uid" : "f2c69700428c0259",
+  "name" : "这里是用例标题1",
+  "fullName" : "Cases.MapAaaCases.test_1.Testlogin001#test_case_1",
+  "historyId" : "be1ef567b3ba257c785e4533c7b44237",
+  "time" : {
+    "start" : 1613923337153,
+    "stop" : 1613923337156,
+    "duration" : 3
+  },
+  "description" : "这里是用例描述1",
+  "descriptionHtml" : "<p>这里是用例描述1</p>\n",
+  "status" : "passed",
+  "statusMessage" : "XPASS",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "test_case_8",
+    "time" : {
+      "start" : 1613923337152,
+      "stop" : 1613923337152,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "test_case_5",
+    "time" : {
+      "start" : 1613923337152,
+      "stop" : 1613923337152,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "project_session_start",
+    "time" : {
+      "start" : 1613923331168,
+      "stop" : 1613923337151,
+      "duration" : 5983
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "test_case_4",
+    "time" : {
+      "start" : 1613923337152,
+      "stop" : 1613923337152,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "test_case_3",
+    "time" : {
+      "start" : 1613923337151,
+      "stop" : 1613923337151,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "start_module",
+    "time" : {
+      "start" : 1613923337151,
+      "stop" : 1613923337151,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "这里是用例描述1",
+    "status" : "passed",
+    "statusMessage" : "XPASS",
+    "steps" : [ {
+      "name" : "测试步骤：",
+      "time" : {
+        "start" : 1613923337153,
+        "stop" : 1613923337156,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a5be31353407efbc",
+        "name" : "d629edd1-cbf5-4db1-a0de-65e0eaecb552-attachment.attach",
+        "source" : "a5be31353407efbc.attach",
+        "type" : "text/plain",
+        "size" : 13
+      }, {
+        "uid" : "4deeb9def88f6dd2",
+        "name" : "4fe20e4e-97ce-4226-8dfb-90bf95b68eac-attachment.attach",
+        "source" : "4deeb9def88f6dd2.attach",
+        "type" : "text/plain",
+        "size" : 13
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "project_session_start::0",
+    "time" : {
+      "start" : 1613923337220,
+      "stop" : 1613923337220,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "这里是2级特性"
+  }, {
+    "name" : "feature",
+    "value" : "这里是1级特性"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('test_case_3')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Cases.MapAaaCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_1"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testlogin001"
+  }, {
+    "name" : "host",
+    "value" : "zjm"
+  }, {
+    "name" : "thread",
+    "value" : "304-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Cases.MapAaaCases.test_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "测试用例链接，比如：https://www.baidu.com/",
+    "url" : "测试用例链接，比如：https://www.baidu.com/",
+    "type" : "test_case"
+  }, {
+    "name" : "添加缺陷对应链接：https://www.baidu.com/",
+    "url" : "添加缺陷对应链接：https://www.baidu.com/",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail", "@pytest.mark.usefixtures('test_case_3')" ]
+  },
+  "source" : "f2c69700428c0259.json",
+  "parameterValues" : [ ]
+}

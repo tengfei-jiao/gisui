@@ -47,7 +47,6 @@ class Testlogin001:
             allure.attach('测试步骤1')
             allure.attach('测试步骤2')
 
-
     @allure.feature('这里是1级特性')
     @allure.story('这里是2级特性')
     @allure.title('这里是用例标题2')
@@ -89,16 +88,17 @@ class Testlogin001:
 @pytest.mark.skipif(1>3, reason='Testlogin2模块还在调测中')
 class Testlogin2:
 
-    def test_case_14(self):
+    def test_case_14(self, start_module):
         print('---14号用例完成---')
-
+        allure.attach(start_module.get_screenshot_as_png(), "失败截图", allure.attachment_type.PNG)
+        # allure.attach.file()
 
 if __name__ == "__main__":
 
     # pytest.main(['test_1.py'])
 
     # 生成测试报告---json格式
-    pytest.main(['--alluredir', 'D:/se_frame/Reports/allure_data', 'test_1.py'])
+    pytest.main(['--alluredir', 'D:/se_frame/Reports/allure_data', 'test_1.py::Testlogin001::test_case_1'])
     # allure转换成---html并打开测试报告
     os.system('cd D:/se_frame/Reports/allure_data')
     os.system('allure generate D:/se_frame/Reports/allure_data -o D:/se_frame/Reports/html --clean')
