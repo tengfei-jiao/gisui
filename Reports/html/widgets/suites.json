@@ -5,11 +5,11 @@
     "name" : "Cases.MapAaaCases",
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
-      "skipped" : 1,
-      "passed" : 10,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 13
+      "total" : 1
     }
   } ]
 }

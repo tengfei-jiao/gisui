@@ -1,1 +1,6 @@
 Cases/MapAaaCases/test_1.py::Testlogin001::test_case_1
+Cases/MapAaaCases/test_2.py::test_login
+Cases/MapAaaCases/test_2.py::test_login
+Cases/MapAaaCases/test_2.py::test_login
+Cases/MapAaaCases/test_2.py::test_login
+Cases/MapAaaCases/test_2.py::test_assertion

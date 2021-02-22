@@ -4,37 +4,21 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "AttributeError: 'NoneType' object has no attribute 'get_screenshot_as_png'",
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[name=\"u\"]\"}\n  (Session info: chrome=88.0.4324.104)",
       "children" : [ {
-        "name" : "test_case_14",
-        "uid" : "3847b9adc4b9d122",
-        "parentUid" : "68f9abdcbebd32efafccb975c0bf16e0",
+        "name" : "test_login",
+        "uid" : "4cd8b7175071288a",
+        "parentUid" : "29619b8fda0802676262d79991b3ab93",
         "status" : "broken",
         "time" : {
-          "start" : 1613922884936,
-          "stop" : 1613922884936,
-          "duration" : 0
+          "start" : 1614008054574,
+          "stop" : 1614008060802,
+          "duration" : 6228
         },
-        "flaky" : false,
+        "flaky" : true,
         "parameters" : [ ]
       } ],
-      "uid" : "68f9abdcbebd32efafccb975c0bf16e0"
-    }, {
-      "name" : "ZeroDivisionError: division by zero",
-      "children" : [ {
-        "name" : "这里是用例标题1",
-        "uid" : "3b76bbcfe9dc3b35",
-        "parentUid" : "23d45e2b95d72e21c04056363d6f717f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1613923530479,
-          "stop" : 1613923530479,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "23d45e2b95d72e21c04056363d6f717f"
+      "uid" : "29619b8fda0802676262d79991b3ab93"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
