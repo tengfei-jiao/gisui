@@ -11,7 +11,8 @@ import logging
 
 
 class Base:
-    """这里封装了操作浏览器的基础操作"""
+    """这里封装了操作浏览器的基础操作
+        """
 
     def __init__(self, driver, log):
         self.driver = driver
@@ -20,14 +21,12 @@ class Base:
         return self.driver.find_element_by_id(element)
 
     def findele(self, *element):
-        """
-        压包，和解包，示例：findele(By.Id, "xxx")
-        """
+        """压包，和解包，示例：findele(By.Id, "xxx")
+            """
         return self.driver.find_element(*element)
 
     def findeles(self, *element):
-        """
-        压包，和解包，例如findele(By.Id, "xxx"),返回是一个许多个元素
+        """压包，和解包，例如findele(By.Id, "xxx"),返回是一个许多个元素
         :param element:
         :return:
         """
@@ -38,15 +37,13 @@ class Base:
         return self.driver.findele(*element).clear()
         
     def click(self, *element):
-        """
-        点击元素，示例：click(By.Xpath, '[xxx]')
-        """
+        """点击元素，示例：click(By.Xpath, '[xxx]')
+            """
         return self.driver.findele(*element).click()
 
     def sendkey(self, value, *element):
-        """
-        给输入框发送内容，示例：sendkey("tfjiao", By.Xpath, '[xxx]')
-        """
+        """给输入框发送内容，示例：sendkey("tfjiao", By.Xpath, '[xxx]')
+            """
         self.findele(*element).send_keys(value)
 
     def move_offset_click(self, canvas, *element):
@@ -58,21 +55,18 @@ class Base:
         return ActionChains(self.driver).move_to_element(canvas).move_by_offset(*element).release().click().perform()
 
     def move_offset_click_double(self, canvas, *elenment):
-        """
-        移动到画布这个元素上，移动到某个位置点，并进行双击，跟move_offset_click方法类似 >>> 用于画布上双击结束绘画
-        """
+        """移动到画布这个元素上，移动到某个位置点，并进行双击，跟move_offset_click方法类似 >>> 用于画布上双击结束绘画
+            """
         return ActionChains(self.driver).move_to_element(canvas).move_by_offset(*elenment).release().double_click().perform()
 
     def move_element_click(self, *element):
-        """
-        移动到元素上，并点击。示例：move_element_click(By.Xpath, '[xxx]')
-        """
+        """移动到元素上，并点击。示例：move_element_click(By.Xpath, '[xxx]')
+            """
         return ActionChains(self.driver).move_to_element(self.findele(*element)).release().click().perform()
 
     def move_element_offset_click(self, xoffset, yoffset, *element):
-        """
-        移动到元素的左侧位置，示例：move_element_offset_click(100, 200, By.Id, "xxx")
-        """
+        """移动到元素的左侧位置，示例：move_element_offset_click(100, 200, By.Id, "xxx")
+            """
         return ActionChains(self.driver).move_to_element(self.findele(*element), xoffset, yoffset).click().perform()
 
     def select_value(self, id, value):
